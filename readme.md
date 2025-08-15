@@ -1,7 +1,7 @@
 ### unbricking oneplus6 with pyhton3-edl
 
-- this guide is for oneplus6 only, do not use it for oneplus6t
-- we don't have guide for oneplus6t only
+- this guide is for oneplus6 only
+- we don't have guide for oneplus6t yet
 
 ### installing python3-edl on fedora
 
