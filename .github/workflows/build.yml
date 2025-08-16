@@ -9,7 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          sudo apt install p7zip python3-pip
+          curl -L https://7-zip.org/a/7z2501-linux-arm64.tar.xz | tar -xJf -
+          sudo cp 7zzs /bin/7z
           bash build/build.sh
       - uses: actions/upload-artifact@v4
         with:
